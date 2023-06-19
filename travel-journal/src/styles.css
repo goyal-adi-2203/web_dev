@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+section{
+    padding: 20px;
+}
+
+.grey {
+    color: #918E9B;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.space-top{
+    padding-top: 2.5px;
+}
+
+.navbar{
+    background: #F55A5A;
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: -0.075em;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+#earth-icon{
+    color: white;
+    font-size: x-large;
+}
+
+
+.cards-list {
+    padding-top: 90px;   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: auto;
+    justify-content: center;
+}
+
+.card{
+    padding: auto;
+    margin: auto;
+    margin-top: -8px;
+    max-width: 550px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-bottom: 1px solid black;
+    /* #F5F5F5 */
+}
+
+.card-img{
+    width: 35%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.card-details{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: auto;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+
+    color: #2B283A;
+}
+
+.location-icon{
+    width: 7px;
+    height: 9.55px;
+    color: #F55A5A;
+}
+
+.location-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #918E9B;
+}
+
+.card-title{
+    margin-top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+
+    color: #2B283A;
+}
+
+.card-date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    color: #2B283A;
+}
+
+.card-desc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #2B283A;
+}
+
+.card-stats{
+    display: flex;
+    align-items: center; 
+}
+
+.card-star{
+    padding-left: 4px;
+    height: 14px;
+}
+
+.card-price{
+    margin-top: auto;
+}
+
+
+.card-badge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 4px;
+    font-weight: bold;
+}
